@@ -11,41 +11,56 @@
         <h1>Benvenuto a bordo di Italia</h1>
         <p>Il tuo Assistente virtuale avanzato, completamente italiano, progettato per rivoluzionare l'interazione e la gestione all'interno della tua comunità online di Discord.</p>
     </header>
-    <section id="features">
-        <h2>Funzionalità Chiave</h2>
-        <div class="feature-item">
-            <img src="img/counting.png" alt="Sistema di Conteggio">
-            <p><strong>Sistema di Conteggio:</strong> Intrattieni il tuo server, si parte da 1 e il risultato viene salvato nel nostro database!</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/suggestion.png" alt="Modulo di Suggerimenti">
-            <p><strong>Modulo di Suggerimenti Intelligente:</strong> Permetti ai tuoi membri di suggerire delle migliorie per il tuo server!</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/confession.png" alt="Confessioni Anonime">
-            <p><strong>Confessioni Anonime:</strong> Fornisci uno spazio sicuro e privato per far esprimere pensieri e confessioni ai tuoi membri anonimamente.</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/ranking.png" alt="Classifiche">
-            <p><strong>Classifiche:</strong> Motiva la tua comunità scalando la classifica (attualmente disponibile per: Sistema di Conteggio)</p>
-        </div>
-        <div class="feature-item">
-            <img src="img/embed.png" alt="Gestione Embed Dinamica">
-            <p><strong>Gestione Embed Dinamica:</strong> Crea messaggi embed per annunci, regole, o comunicazioni speciali.</p>
-        </div>
-    </section>
-    <section id="trust">
-        <h2>Si fidano di noi ❤️</h2>
-        <ul>
-            <li>Server: <strong><span id="server-count">Caricamento...</span></strong></li>
-            <li>Utenti: <strong><span id="member-count">Caricamento...</span></strong></li>
-        </ul>
-    </section>
-    <section id="installation">
-        <h2>Installalo Ora!</h2>
-        <p>Prova Italia oggi stesso e inizia a sperimentare il futuro della gestione comunitaria con il tocco dell'eccellenza italiana.</p>
-        <button onclick="installBot()">Installa Italia</button>
-    </section>
+    <main>
+        <section id="features">
+            <h2>Funzionalità Chiave</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="img/counting.png" alt="Sistema di Conteggio" class="feature-icon">
+                    <h3>Sistema di Conteggio</h3>
+                    <p>Intrattieni il tuo server, si parte da 1 e il risultato viene salvato nel nostro database!</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/suggestion.png" alt="Modulo di Suggerimenti" class="feature-icon">
+                    <h3>Modulo di Suggerimenti Intelligente</h3>
+                    <p>Permetti ai tuoi membri di suggerire delle migliorie per il tuo server!</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/confession.png" alt="Confessioni Anonime" class="feature-icon">
+                    <h3>Confessioni Anonime</h3>
+                    <p>Fornisci uno spazio sicuro e privato per far esprimere pensieri e confessioni ai tuoi membri anonimamente.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/ranking.png" alt="Classifiche" class="feature-icon">
+                    <h3>Classifiche</h3>
+                    <p>Motiva la tua comunità scalando la classifica (attualmente disponibile per: Sistema di Conteggio)</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/embed.png" alt="Gestione Embed Dinamica" class="feature-icon">
+                    <h3>Gestione Embed Dinamica</h3>
+                    <p>Crea messaggi embed per annunci, regole, o comunicazioni speciali.</p>
+                </div>
+            </div>
+        </section>
+        <section id="trust">
+            <h2>Si fidano di noi ❤️</h2>
+            <div class="trust-stats">
+                <div>
+                    <span id="server-count">Caricamento...</span>
+                    <p>Server</p>
+                </div>
+                <div>
+                    <span id="member-count">Caricamento...</span>
+                    <p>Utenti</p>
+                </div>
+            </div>
+        </section>
+        <section id="installation">
+            <h2>Installalo Ora!</h2>
+            <p>Prova Italia oggi stesso e inizia a sperimentare il futuro della gestione comunitaria con il tocco dell'eccellenza italiana.</p>
+            <button onclick="installBot()">Installa Italia</button>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Italia. Tutti i diritti riservati.</p>
     </footer>
