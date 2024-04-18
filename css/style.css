@@ -1,42 +1,77 @@
+/* Reset di base e regole globali */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
     color: #333;
 }
 
-header, section, footer {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-header h1, section h2 {
-    color: #5b209a;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li strong {
-    color: #36135a;
-}
-
-button {
-    background: #5b209a;
+header {
+    background: #555;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
+    padding: 2rem 0;
+    text-align: center;
 }
 
-button:hover {
-    background: #36135a;
+main {
+    padding: 2rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.feature-image {
+    width: 80px; /* Regola la dimensione come preferisci */
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.feature-image:hover {
+    transform: scale(1.1); /* Effetto zoom al passaggio del mouse */
+}
+
+#trust div {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#trust div:hover {
+    background-color: #e2e2e2;
+}
+
+#installation {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button#install-button {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+button#install-button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
