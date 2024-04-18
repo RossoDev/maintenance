@@ -7,7 +7,7 @@ function installBot() {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    fetch('http://45.43.163.146:25505/servercount')
+    fetch('https://45.43.163.146:25505/servercount')
         .then(response => response.json())
         .then(data => {
             document.getElementById('server-count').textContent = data.serverCount;
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     // Ottieni il conteggio dei membri
-    fetch('http://45.43.163.146:25505/membercount')
+    fetch('https://45.43.163.146:25505/membercount')
         .then(response => response.json())
         .then(data => {
             document.getElementById('member-count').textContent = data.memberCount;
