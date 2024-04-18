@@ -43,7 +43,7 @@ main {
     transform: scale(1.05);
 }
 
-button#install-button {
+button {
     background: #5cb85c;
     color: white;
     border: none;
@@ -52,7 +52,7 @@ button#install-button {
     transition: opacity 0.3s ease;
 }
 
-button#install-button:hover {
+button:hover {
     opacity: 0.8;
 }
 
