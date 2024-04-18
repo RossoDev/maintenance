@@ -57,3 +57,42 @@ button {
 button:hover {
     background: #36135a;
 }
+
+@media (max-width: 800px) {
+    header, section, footer {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .feature-image {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .feature-item {
+        margin-bottom: 0.5rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    header, section, footer {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .features-grid {
+        display: block;
+    }
+
+    .feature-item {
+        text-align: center;
+    }
+}
