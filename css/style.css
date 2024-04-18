@@ -59,40 +59,39 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-    header, section, footer {
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .feature-image {
-        width: 100%;
-        max-width: 350px;
+    .features-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .feature-item {
-        margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 100%;
     }
 
-    body {
-        font-size: 14px;
-    }
-
-    button {
-        padding: 8px 16px;
+    .feature-image {
+        width: 80%;
+        max-width: 300px;
+        margin: 10px auto;
     }
 }
 
 @media (max-width: 500px) {
     header, section, footer {
-        margin: 5px;
-        padding: 5px;
-    }
-
-    .features-grid {
-        display: block;
+        padding: 10px;
     }
 
     .feature-item {
-        text-align: center;
+        padding: 10px;
+    }
+
+    .feature-image {
+        width: 100%;
+        max-width: none;
     }
 }
