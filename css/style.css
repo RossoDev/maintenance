@@ -16,7 +16,7 @@ header, section, footer {
 }
 
 header h1, section h2 {
-    color: #0056b3;
+    color: #5b209a;
 }
 
 ul {
@@ -25,11 +25,11 @@ ul {
 }
 
 li strong {
-    color: #0056b3;
+    color: #36135a;
 }
 
 button {
-    background: #0056b3;
+    background: #5b209a;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -38,5 +38,5 @@ button {
 }
 
 button:hover {
-    background: #004494;
+    background: #36135a;
 }
