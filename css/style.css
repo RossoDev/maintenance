@@ -23,8 +23,9 @@ main {
 
 .feature-item {
     display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Imposta i figli uno sotto l'altro */
 }
 
 .feature-image {
