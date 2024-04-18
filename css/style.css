@@ -16,7 +16,7 @@ header, section, footer {
 }
 
 header h1, section h2 {
-    color: ##5b209a;
+    color: #5b209a;
 }
 
 ul {
@@ -28,8 +28,25 @@ li strong {
     color: ##5b209a;
 }
 
+.feature-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.feature-image {
+    width: 200px;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.feature-image:hover {
+    transform: scale(1.1);
+}   
+
 button {
-    background: ##5b209a;
+    background: #5b209a;
     color: #fff;
     border: none;
     padding: 10px 20px;
