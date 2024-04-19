@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://45.43.163.146:25505/servercount')
+    fetch('https://discordsrv.mysrv.us/servercount')
         .then(response => response.json())
         .then(data => {
             document.getElementById('server-count').textContent = data.serverCount + ' server';
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('server-count').textContent = 'Non disponibile';
         });
 
-    fetch('https://45.43.163.146:25505/membercount')
+    fetch('https://discordsrv.mysrv.us/membercount')
         .then(response => response.json())
         .then(data => {
             document.getElementById('member-count').textContent = data.memberCount + ' utenti';
