@@ -8,6 +8,9 @@ body {
 }
 
 header, section, footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -46,6 +49,9 @@ li strong {
 }   
 
 button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #5b209a;
     color: #fff;
     border: none;
