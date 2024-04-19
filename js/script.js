@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('https://discordsrv.mysrv.us/servercount')
         .then(response => response.json())
         .then(data => {
-            document.getElementById('server-count').textContent = data.serverCount + ' server';
+            document.getElementById('server-count').textContent = data.serverCount;
         })
         .catch(error => {
-            document.getElementById('server-count').textContent = 'Non disponibile';
+            document.getElementById('server-count').textContent = 'N/A';
         });
 
     fetch('https://discordsrv.mysrv.us/membercount')
         .then(response => response.json())
         .then(data => {
-            document.getElementById('member-count').textContent = data.memberCount + ' utenti';
+            document.getElementById('member-count').textContent = data.memberCount;
         })
         .catch(error => {
-            document.getElementById('member-count').textContent = 'Non disponibile';
+            document.getElementById('member-count').textContent = 'N/A';
         });
 
     document.getElementById('install-button').addEventListener('click', () => {
