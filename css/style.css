@@ -46,7 +46,18 @@ li strong {
 
 .feature-image:hover {
     transform: scale(1.1);
-}   
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-small {
+    width: 50px;
+    margin-right: 10px;
+}
+
 
 button {
     display: flex;
